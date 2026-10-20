@@ -2,7 +2,27 @@
 
 > 用最简单的方式，讲清楚智能体实现 —— **一个类，就是一个智能体的最小 MVP**。
 
-Python 3 · 零第三方依赖 · 26 个渐进式场景 · CLI 演示运行器（web 版见 Java 工程 [ToyAgent](../ToyAgent)）。本工程是 Java 版 ToyAgent 的 Python 移植，配套教程：[AI Agent 通识教程（ai-agent-guide）](../README.md)。
+Python 3 · 零第三方依赖 · 26 个渐进式场景 · CLI 演示运行器（web 版见 Java 工程 [ToyAgent](https://github.com/fuzhengwei/ToyAgent)）。本工程是 Java 版 ToyAgent 的 Python 移植，配套教程：[AI Agent 通识教程（ai-agent-guide）](https://github.com/fuzhengwei/ai-agent-guide)。
+
+## 多语言版本 · Language Family
+
+同一套 26 个场景与 LLM 层的五种语言等价实现（Mock 教学剧本逐场景一致）：
+
+| 语言 | 仓库 | 特点 |
+|------|------|------|
+| ☕ Java | [ToyAgent](https://github.com/fuzhengwei/ToyAgent) | 本体：Web 可视化测试页 + HTTP API |
+| 🐍 Python | [ToyAgent-Python](https://github.com/fuzhengwei/ToyAgent-Python) | 标准库零第三方依赖 |
+| 🟦 TypeScript | [ToyAgent-Typescript](https://github.com/fuzhengwei/ToyAgent-Typescript) | 零运行时依赖，strict 模式 |
+| 🐹 Go | [ToyAgent-Go](https://github.com/fuzhengwei/ToyAgent-Go) | 标准库零依赖，单二进制 |
+| 🟨 JavaScript | [ToyAgent-JS](https://github.com/fuzhengwei/ToyAgent-JS) | 原生 ESM，无构建 |
+
+🐍 **当前仓库：[ToyAgent-Python](https://github.com/fuzhengwei/ToyAgent-Python) —— 你正在看的语言版本****
+
+Java 本体的 Web 运行效果（三栏可视化 + 五语言代码切换）：
+
+![ToyAgent Web 运行效果](https://raw.githubusercontent.com/fuzhengwei/ToyAgent/main/docs/images/home-overview.png)
+
+
 
 ## 一句话读懂
 
