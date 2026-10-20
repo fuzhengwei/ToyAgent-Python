@@ -1,0 +1,20 @@
+# Python 运行时产物
+__pycache__/
+*.py[cod]
+
+# 模型配置（含 API Key，不入库）
+config.properties
+
+# 场景运行时产物
+events/
+wiki/
+plugins/
+
+# 运行时自动生成的沙箱目录（保留工程内预置的 step25 工作区文件）
+sandbox/*
+!sandbox/step25/
+!sandbox/step25/hello.txt
+
+# IDE
+.idea/
+.vscode/
